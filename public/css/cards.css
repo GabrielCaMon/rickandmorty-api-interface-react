@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+.divLogo{
+    height: 400px;
+    background: url('images/Rick_and_Morty_logo.png') no-repeat;
+    background-position: 50% 50%;
+    
+}
+
+
+
+div#authors{
+	width: 1255px;
+    margin: 50px auto;
+	padding: 0px;
+	overflow: hidden;
+	list-style: none;
+	overflow: hidden;
+}
+
+
+div#authors div{
+    float: left;
+   padding: 0px;
+    margin: 20px 5px;
+    width: 300px;
+    height: 750px;
+	background-color: white;
+	box-shadow: 1px 1px 3px  rgba(0,0,0,.4);
+	
+}
+div#authors div figure img{
+    width: 300px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px; 
+}
+div#authors div figure{
+display: inline-block;
+  position: relative;
+  margin: 0px;
+  padding: 0px;  
+
+    
+}
+
+div#authors div figure figcaption{
+       position: absolute;
+       top: 242px;
+        
+        width: 300px;
+        background-color: rgba(0,0,0, 0.4);
+       
+         
+}
+div#authors div figure figcaption span#nomeChar{
+ font-size:18pt;  
+ color: white;
+    text-shadow: 1px 1px 1px #000000;
+            
+}
+div#authors div figure figcaption span#subNome{
+    font-size:9pt;    
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+         
+                
+ }
+ table{
+     width: 240px;
+     margin-left: 30px;
+ }
+table td{
+    
+    border-bottom: 1px solid #606060;
+    border-spacing: 0px;
+    padding-top: 28px;
+    padding-bottom: 2px;
+    
+}
+table tr td.ce{
+    
+    text-align: left;
+}
+table tr td.cd{
+    
+    text-align: right;
+}
+
+
+
