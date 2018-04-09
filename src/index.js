@@ -18,7 +18,7 @@ function append(parent,el)
 }
 const ul = document.getElementById("authors");
 
-const url = 'https://rickandmortyapi.com/api/character/';
+const url = '`https://rickandmortyapi.com/api/character/?page=${Math.floor(Math.random() * 20 + 1)}`';
 
 fetch(url)
 .then((resp) => resp.json())
